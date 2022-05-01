@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch1"
+            android:text="음악듣기"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnReturn3"
+            android:layout_weight="1"
+            android:text="메인으로 돌아가기"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnStart"
+            android:text=" ▶ "/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnPause"
+            android:text=" || "/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="11dp"
+        android:id="@+id/tv"
+        android:text="좋은 사람 있으면 소개시켜줘 \n때로는 물처럼 때로는 불처럼\n
+진심으로 나만을 사랑할 수 있는\n
+성숙하고 성실한 사람이라면 좋겠어\n
+좋은 사람 있으면 소개시켜줘\n
+사랑에도 연습은 있는 거기에\n
+아주 조그만 일에도 신경을 써주는\n
+사랑 경험이 많은 사람이라면 좋겠어\n
+한번쯤은 실연에 울었었던\n
+눈이 고운 사람 품에 안겨서\n
+뜨겁게 위로받고 싶어\n
+혼자임에 지쳤던 내 모든걸\n
+손이 고운 사람에게 맡긴 채\n
+외로움을 잊을 수 있다면\n
+좋은 사람 있으면 소개시켜줘\n
+만남 그 자체에 연연하기보다\n
+한번을 만나더라도 그 때 분위기에\n
+최선을 다하려는 사람이라면 좋겠어\n
+나에겐 아픈 상처가 있는데\n
+과거가 없는 사람은 부담스러워\n
+한번쯤은 실연에 울었었던\n
+눈이 고운 사람 품에 안겨서\n
+뜨겁게 위로받고 싶어\n
+혼자임에 지쳤던 내 모든걸\n
+손이 고운 사람에게 맡긴 채\n
+외로움을 잊을 수 있다면\n
+겨울이라 날씨가 추웠을까\n
+팔짱끼는 연인들의 모습에\n
+나의 눈이 왜 시려울까\n
+한땐 나도 저런 때 있었다며\n
+새로운 사람이 그리운걸까\n
+옛사람이 그리워진걸까\n
+옛사람이 그리워진걸까"/>
+</LinearLayout>
